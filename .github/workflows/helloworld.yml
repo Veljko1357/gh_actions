@@ -13,7 +13,7 @@ jobs:
     - name: Install Node.js 16.x
       uses: actions/setup-node@v2
       with:
-          node-version: '16.x'
+          node-version: '16'
 
     - name: Check Laravel version and update if necessary
       run: |
